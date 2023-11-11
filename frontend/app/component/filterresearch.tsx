@@ -20,19 +20,14 @@ const DistributionOptions = [
 
 ];
 
-const RatingOptions = [
-  { value: 'high to low', label: 'Low' },
-  { value: 'bryn mawr', label: 'High' },
-];
 
 const optionsArray = [
   { label: 'College', options: CollegeOptions },
   { label: 'Semester', options: SemesterOptions },
   { label: 'Distribution', options: DistributionOptions },
-  { label: 'Rating', options: RatingOptions },
 ];
 
-const FilterBar = () => {
+const FilterBarResearch = () => {
   return (
     <div className='inline-flex gap-4 bg-gray-200 py-2 px-4 rounded mr-20'>
       {optionsArray.map(({ label, options }, i) => (
@@ -48,4 +43,4 @@ const FilterBar = () => {
   );
 };
 
-export default FilterBar;
+export default FilterBarResearch;

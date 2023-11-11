@@ -1,14 +1,9 @@
-"use client"
-
 import { Open_Sans } from 'next/font/google'
 import { BiSolidBookContent } from 'react-icons/bi';
 import { FaMicroscope } from 'react-icons/fa';
 
 
-
-
 const inter = Open_Sans({ subsets: ['latin'] })
-
 
 
 export default function NavBar() {
