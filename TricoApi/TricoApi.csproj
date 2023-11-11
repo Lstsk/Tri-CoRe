@@ -15,6 +15,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.13" />
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,11 +23,16 @@
     <None Remove="Services\" />
     <None Remove="Models\" />
     <None Remove="Context\" />
+    <None Remove="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Services\" />
     <Folder Include="Models\" />
     <Folder Include="Context\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Data\Courses.json" />
   </ItemGroup>
 </Project>

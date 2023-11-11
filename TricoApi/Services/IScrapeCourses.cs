@@ -1,10 +1,8 @@
 ﻿using System;
 namespace TricoApi.Services;
 
-public class IScrapeCourses
+public interface IScrapeCourses
 {
-	public IScrapeCourses()
-	{
-	}
+    Task Scrape();
 }
 

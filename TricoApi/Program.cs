@@ -1,4 +1,10 @@
 ﻿using TricoApi.Services;
+using TricoApi.Context;
+using Microsoft.EntityFrameworkCore;
+
+var client = new ScrapeCourses();
+await client.Scrape();
+//client.QueryBuilder();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IScrapeCourses, ScrapeCourses>();
+builder.Services.AddDbContext<CourseContext>(e => e.UseInMemoryDatabase("Course Context"));
 
 var app = builder.Build();
 

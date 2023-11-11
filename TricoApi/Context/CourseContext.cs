@@ -10,10 +10,17 @@ public class CourseContext:DbContext
 	{
 	}
 
-    public DbSet<Course> Courses { get; set; } 
+    public DbSet<Course> Courses { get; set; }
+    public DbSet<Instructor> Instructors { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Course>()
+            .HasMany(e => e.Instructors)
+            .WithOne()
+            .IsRequired();
+
+
         base.OnModelCreating(modelBuilder);
     }
 }
