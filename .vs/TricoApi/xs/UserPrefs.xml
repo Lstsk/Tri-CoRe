@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{568137E7-DAB3-484E-8EFD-3E224279F6F0}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TricoApi/Models/Course.cs">
+    <Files>
+      <File FileName="TricoApi/Models/Course.cs" Line="6" Column="20" />
+      <File FileName="TricoApi/Program.cs" Line="1" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TricoApi">
+            <Node name="TricoApi">
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TricoApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

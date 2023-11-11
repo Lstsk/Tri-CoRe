@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data.Entity;
+
 namespace TricoApi.Models;
 
 public class Course
