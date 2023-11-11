@@ -25,6 +25,7 @@
     <None Remove="Context\" />
     <None Remove="Data\" />
     <None Remove="Models\Query\" />
+    <None Remove="Data\Enum\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -33,6 +34,7 @@
     <Folder Include="Context\" />
     <Folder Include="Data\" />
     <Folder Include="Models\Query\" />
+    <Folder Include="Data\Enum\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Data\Courses.json" />

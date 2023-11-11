@@ -177,7 +177,7 @@
       "Instructor": "Machado, Jose-Luis",
       "CourseRecordNumber": 28698,
       "Enrollment": 12,
-      "Distribution": ", Natural Sciences",
+      "Distribution": "Natural Sciences",
       "Notes": "Eligible for ENVS program.",
       "DatesAndTimes": "M 01:15pm-04:00pm",
       "Location": "Singer Hall MYNRD SMTH"
@@ -3089,7 +3089,7 @@
       "Instructor": null,
       "CourseRecordNumber": 29258,
       "Enrollment": 14,
-      "Distribution": ", Social Sciences, Writing",
+      "Distribution": "Social Sciences, Writing",
       "Notes": "Eligible for ESCH.",
       "DatesAndTimes": "W 01:15pm-04:00pm",
       "Location": "Pearson Hall 220"
@@ -3323,7 +3323,7 @@
       "Instructor": "Bragg, Nicolette",
       "CourseRecordNumber": 24810,
       "Enrollment": 15,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": null,
       "DatesAndTimes": "TTH 09:55am-11:10am",
       "Location": "Trotter Hall 315"
@@ -3336,7 +3336,7 @@
       "Instructor": "Mishra, Shailen",
       "CourseRecordNumber": 28872,
       "Enrollment": 15,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": "Eligible for ENVS",
       "DatesAndTimes": "TTH 08:30am-09:45am",
       "Location": "Trotter Hall 315"
@@ -3401,7 +3401,7 @@
       "Instructor": "Ku, Ryanson",
       "CourseRecordNumber": 29307,
       "Enrollment": 12,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": null,
       "DatesAndTimes": "TTH 02:40pm-03:55pm",
       "Location": "Trotter Hall 315"
@@ -3414,7 +3414,7 @@
       "Instructor": "Buurma, Rachel",
       "CourseRecordNumber": 29308,
       "Enrollment": 12,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": null,
       "DatesAndTimes": "TTH 09:55am-11:10am",
       "Location": "Lang Perf Arts Ctr 201"
@@ -4896,7 +4896,7 @@
       "Instructor": "Chen, BuYun",
       "CourseRecordNumber": 29151,
       "Enrollment": 0,
-      "Distribution": ", Social Sciences",
+      "Distribution": "Social Sciences",
       "Notes": null,
       "DatesAndTimes": "TTH 01:15pm-02:30pm",
       "Location": "Trotter Hall 215"
@@ -6664,7 +6664,7 @@
       "Instructor": "Wilson, Michael",
       "CourseRecordNumber": 29180,
       "Enrollment": 25,
-      "Distribution": ", Social Sciences",
+      "Distribution": "Social Sciences",
       "Notes": null,
       "DatesAndTimes": "TTH 09:55am-11:10am",
       "Location": "Kohlberg 115"
@@ -7535,7 +7535,7 @@
       "Instructor": "Ahmed, Sabeen",
       "CourseRecordNumber": 29241,
       "Enrollment": 25,
-      "Distribution": ", Arts and Humanities",
+      "Distribution": "Arts and Humanities",
       "Notes": null,
       "DatesAndTimes": "W 01:15pm-04:00pm",
       "Location": "Singer Hall 248"
@@ -10709,7 +10709,7 @@
       "Instructor": "Machado, Jose-Luis",
       "CourseRecordNumber": 28698,
       "Enrollment": 12,
-      "Distribution": ", Natural Sciences",
+      "Distribution": "Natural Sciences",
       "Notes": "Eligible for ENVS program.",
       "DatesAndTimes": "M 01:15pm-04:00pm",
       "Location": "Singer Hall MYNRD SMTH"
@@ -13621,7 +13621,7 @@
       "Instructor": null,
       "CourseRecordNumber": 29258,
       "Enrollment": 14,
-      "Distribution": ", Social Sciences, Writing",
+      "Distribution": "Social Sciences, Writing",
       "Notes": "Eligible for ESCH.",
       "DatesAndTimes": "W 01:15pm-04:00pm",
       "Location": "Pearson Hall 220"
@@ -13855,7 +13855,7 @@
       "Instructor": "Bragg, Nicolette",
       "CourseRecordNumber": 24810,
       "Enrollment": 15,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": null,
       "DatesAndTimes": "TTH 09:55am-11:10am",
       "Location": "Trotter Hall 315"
@@ -13868,7 +13868,7 @@
       "Instructor": "Mishra, Shailen",
       "CourseRecordNumber": 28872,
       "Enrollment": 15,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": "Eligible for ENVS",
       "DatesAndTimes": "TTH 08:30am-09:45am",
       "Location": "Trotter Hall 315"
@@ -13933,7 +13933,7 @@
       "Instructor": "Ku, Ryanson",
       "CourseRecordNumber": 29307,
       "Enrollment": 12,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": null,
       "DatesAndTimes": "TTH 02:40pm-03:55pm",
       "Location": "Trotter Hall 315"
@@ -13946,7 +13946,7 @@
       "Instructor": "Buurma, Rachel",
       "CourseRecordNumber": 29308,
       "Enrollment": 12,
-      "Distribution": ", Arts and Humanities, Writing",
+      "Distribution": "Arts and Humanities, Writing",
       "Notes": null,
       "DatesAndTimes": "TTH 09:55am-11:10am",
       "Location": "Lang Perf Arts Ctr 201"
@@ -15428,7 +15428,7 @@
       "Instructor": "Chen, BuYun",
       "CourseRecordNumber": 29151,
       "Enrollment": 0,
-      "Distribution": ", Social Sciences",
+      "Distribution": "Social Sciences",
       "Notes": null,
       "DatesAndTimes": "TTH 01:15pm-02:30pm",
       "Location": "Trotter Hall 215"
@@ -17196,7 +17196,7 @@
       "Instructor": "Wilson, Michael",
       "CourseRecordNumber": 29180,
       "Enrollment": 25,
-      "Distribution": ", Social Sciences",
+      "Distribution": "Social Sciences",
       "Notes": null,
       "DatesAndTimes": "TTH 09:55am-11:10am",
       "Location": "Kohlberg 115"
@@ -18067,7 +18067,7 @@
       "Instructor": "Ahmed, Sabeen",
       "CourseRecordNumber": 29241,
       "Enrollment": 25,
-      "Distribution": ", Arts and Humanities",
+      "Distribution": "Arts and Humanities",
       "Notes": null,
       "DatesAndTimes": "W 01:15pm-04:00pm",
       "Location": "Singer Hall 248"

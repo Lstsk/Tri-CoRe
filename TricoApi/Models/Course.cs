@@ -19,6 +19,7 @@ public class Course
 	public string? Notes { get; set; }
 	public string? Schedule { get; set; }
 	public string? Location { get; set; }
+	public int Rating { get; set; } = new Random().Next(0, 10);
 	[JsonIgnore]
 	public Instructor Instructor { get; set; } = null!;
 }

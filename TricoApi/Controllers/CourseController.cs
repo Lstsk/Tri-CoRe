@@ -5,6 +5,7 @@ using TricoApi.Context;
 using Microsoft.EntityFrameworkCore;
 using TricoApi.Models;
 using TricoApi.Models.Query;
+using TricoApi.Data.Enum;
 namespace TricoApi.Controllers;
 
 [ApiController]
@@ -44,17 +45,43 @@ public class CourseController:ControllerBase
 	[HttpGet("Courses")]
 	public async Task<IActionResult> GetCourses([FromQuery] QueryCourses query)
 	{
-		var queryResult = _courseContext.Courses.Where(e => e.Distribution == query.Distribution).Select(e => e);
-		//if (query.Distribution != null)
-		//{
-		//	queryResult = _courseContext.Courses.Where(e => e.Distribution == query.Distribution).Select(e=> e);
-		//}
 
-		
 
-		return Ok(await
-			queryResult.Take(query.Size).ToListAsync()
-			);
+		var raqueryResult = query.College is null ? _courseContext.Courses : _courseContext.Schools.Where(e => e.SchoolName == query.College).SelectMany(e => e.Instructors.SelectMany(e => e.Courses)).Where(e => e.Distribution == query.Distribution);
+
+
+   //     var raqueryResult = _courseContext.Schools
+			//.Where(e => e.SchoolName == query.College)
+			//.SelectMany(e => e.Instructors
+			//	.SelectMany(e => e.Courses))
+			//		.Where(e => e.Distribution == query.Distribution);
+
+		if (query.isHigh == 0)
+		{
+			raqueryResult = raqueryResult
+				.OrderBy(e => Guid.NewGuid())
+				.OrderByDescending(course => course.Rating)
+				.Take(query.Size);
+		}
+		else if (query.isHigh == 1)
+		{
+			raqueryResult = raqueryResult
+				.OrderBy(e => Guid.NewGuid())
+				.OrderBy(course => course.Rating)
+				.Take(query.Size);
+		}
+		else
+		{
+			raqueryResult = raqueryResult
+				.OrderBy(e => Guid.NewGuid())
+				.Take(query.Size);
+		}
+
+
+
+        return Ok(
+			await raqueryResult.ToListAsync()
+            );
 	}
 }
 
