@@ -18,16 +18,16 @@ export default function NavBar() {
             <h1 className="text-black text-xl font-bold">Tri-CoRe</h1>
         </div>
         
-        <div className="text-white flex items-center">
-            <button className='py-1.5 px-2 bg-[#bf3135] rounded inline-flex gap-2 mr-4 hover:bg-red-200'>
+        <div className="text-white flex items-center text-sm">
+            <button className='py-1.5 px-2 bg-[#bf3135] rounded inline-flex gap-2 mr-4 hover:bg-red-400'>
                 <BiSolidBookContent className="text-lg my-auto"/>
                 <span>Course</span>
             </button>
-            <button className='py-1.5 px-2 bg-[#bf3135] rounded inline-flex gap-2 mr-4 hover:bg-red-200'>
+            <button className='py-1.5 px-2 bg-[#bf3135] rounded inline-flex gap-2 mr-4 hover:bg-red-400'>
                 <FaMicroscope className="text-lg my-auto"/>
                 <span>Research</span>
             </button>    
-            <button className='py-1.5 px-6 bg-[#bf3135] rounded inline-flex gap-2 hover:bg-red-200'>
+            <button className='py-1.5 px-6 bg-[#bf3135] rounded inline-flex gap-2 hover:bg-red-400'>
                 <span className=''>Login</span>
             </button>
         </div>
