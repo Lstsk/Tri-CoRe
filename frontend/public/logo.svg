@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 731.88 248.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #963736;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #963736;
+        font-family: HiraKakuStd-W8-83pv-RKSJ-H, 'Hiragino Kaku Gothic Std';
+        font-size: 111.03px;
+      }
+
+      .cls-4 {
+        letter-spacing: -.1em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <polygon class="cls-1" points="10.43 72.2 30.1 189.22 132.54 189.22 81.24 97.61 10.43 72.2"/>
+      <circle class="cls-1" cx="55" cy="55" r="50"/>
+    </g>
+    <text class="cls-3" transform="translate(166.73 188.04)"><tspan class="cls-4" x="0" y="0">T</tspan><tspan class="cls-2" x="74.73" y="0">ri-CoRe</tspan></text>
+    <text/>
+  </g>
+</svg>

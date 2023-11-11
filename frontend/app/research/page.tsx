@@ -11,7 +11,8 @@ export default function Course() {
         college: 'Swarthmore College',
         category: 'NS',
         instructor: 'Vasanta Chaganti',
-        schedule: "Summer 2024"
+        schedule: "Summer 2024",
+        openings: 3
       };
 
     const repeatedFakeData = Array(10).fill(singleFakeData);
@@ -19,10 +20,13 @@ export default function Course() {
 
   return (
     <div className="flex flex-col">
+    
+        <p className="text-xl px-28 mt-5 font-bold">Research Page</p>
+
       
 
       {/* Body */}
-      <div className="flex-grow px-28 mt-10">
+      <div className="flex-grow px-28 mt-5">
         <div className="w-full">
 
           {/* Filter and search bar */}

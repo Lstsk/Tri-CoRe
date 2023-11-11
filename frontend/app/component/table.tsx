@@ -6,6 +6,7 @@ interface CourseData {
     schedule: string;
     rating: string;
     room: string;
+    max_enrollment: number;
   }
   
   interface ResearchData {
@@ -14,6 +15,7 @@ interface CourseData {
     category: string;
     instructor: string;
     schedule: string;
+    openings: number;
   }
   
   type TableData = CourseData[] | ResearchData[];
@@ -37,8 +39,15 @@ interface CourseData {
               <th className="py-2 px-4">Rating</th>
             )}
             {Array.isArray(data) && 'room' in data[0] && (
-              <th className="py-2 px-4 rounded-br">Room</th>
+              <th className="py-2 px-4">Room</th>
             )}
+            {Array.isArray(data) && 'openings' in data[0] && (
+              <th className="py-2 px-4">Openings</th>
+            )}
+             {Array.isArray(data) && 'max_enrollment' in data[0] && (
+              <th className="py-2 px-4">Max Enrollment</th>
+            )}
+
           </tr>
         </thead>
         <tbody>
@@ -53,8 +62,15 @@ interface CourseData {
                 <td className="py-4 px-4">{item.rating}</td>
               )}
               {Array.isArray(data) && 'room' in item && (
-                <td className="py-4 px-4 rounded-br">{item.room}</td>
+                <td className="py-4 px-4">{item.room}</td>   
               )}
+              {Array.isArray(data) && 'openings' in item && (
+                <td className="py-4 px-4">{item.openings}</td>   
+              )}
+            {Array.isArray(data) && 'max_enrollment' in item && (
+                <td className="py-4 px-4">{item.max_enrollment}</td>   
+              )}
+
             </tr>
           ))}
         </tbody>
