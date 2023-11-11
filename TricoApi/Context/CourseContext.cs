@@ -12,16 +12,38 @@ public class CourseContext:DbContext
 
     public DbSet<Course> Courses { get; set; }
     public DbSet<Instructor> Instructors { get; set; }
+    public DbSet<School> Schools { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Course>()
-            .HasMany(e => e.Instructors)
-            .WithOne()
+        // One-To-Many | School-to-Instructors
+        //modelBuilder.Entity<School>()
+        //    .HasMany(e => e.Instructors)
+        //    .WithOne();
+        //    //.HasForeignKey(e => e.InstructorId)
+        //    //.IsRequired();
+
+        modelBuilder.Entity<Instructor>()
+            .HasOne(e => e.School)
+            .WithMany()
+            .HasForeignKey(e => e.InstructorId)
             .IsRequired();
 
+        modelBuilder.Entity<Course>()
+            .HasOne(e => e.Instructor)
+            .WithMany()
+            .HasForeignKey(e => e.CourseId)
+            .IsRequired();
+
+        // One-To-Many | Instructor - to - Courses
+        //modelBuilder.Entity<Instructor>()
+        //    .HasMany(e => e.Courses)
+        //    .WithOne()
+        //    //.HasForeignKey(e => e.CourseId)
+        //    .IsRequired();
 
         base.OnModelCreating(modelBuilder);
     }
+    
 }
 

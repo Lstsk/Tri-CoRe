@@ -1,10 +1,9 @@
-﻿using TricoApi.Services;
+﻿using System;
+
+using TricoApi.Services;
+using TricoApi.Data;
 using TricoApi.Context;
 using Microsoft.EntityFrameworkCore;
-
-var client = new ScrapeCourses();
-await client.Scrape();
-//client.QueryBuilder();
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+AppDbInitializer.Seed(app);
 
 app.UseHttpsRedirection();
 

@@ -3,6 +3,7 @@ namespace TricoApi.Services;
 
 public interface IScrapeCourses
 {
-    Task Scrape();
+    Task Scrape(int school);
+    Task FilterData(string res);
 }
 

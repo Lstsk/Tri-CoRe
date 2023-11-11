@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using TricoApi.Services;
 using TricoApi.Context;
 using Microsoft.EntityFrameworkCore;
+using TricoApi.Models;
+using TricoApi.Models.Query;
 namespace TricoApi.Controllers;
 
 [ApiController]
@@ -17,20 +19,41 @@ public class CourseController:ControllerBase
 		_scrapeCourses = scrapeCourses;
 	}
 
-	[HttpGet("Courses")]
-	public async Task<IActionResult> GetCourses()
+	[HttpGet("Schools")]
+	public async Task<IActionResult> GetSchools()
 	{
-		
-		return Ok(await _courseContext.Courses.Include(e => e.Instructors)
-			.ToListAsync());
+
+		return Ok(await
+			 _courseContext.Schools
+			 .Include(e=> e.Instructors)
+				.ThenInclude(e => e.Courses)
+			 .ToListAsync()
+			 );
+
+	}
+	[HttpGet("Instructors")]
+	public async Task<IActionResult> GetInstructors()
+	{
+		return Ok( await
+			_courseContext.Instructors
+			.Include(e => e.Courses)
+			.ToListAsync()
+			);
 	}
 
-	[HttpGet("Scrape")]
-	public async Task<IActionResult> ScrapeCourses()
+	[HttpGet("Courses")]
+	public async Task<IActionResult> GetCourses([FromQuery] QueryCourses query)
 	{
-		await _scrapeCourses.Scrape();
-		return Ok(
-			"Okayyy"
+		var queryResult = _courseContext.Courses.Where(e => e.Distribution == query.Distribution).Select(e => e);
+		//if (query.Distribution != null)
+		//{
+		//	queryResult = _courseContext.Courses.Where(e => e.Distribution == query.Distribution).Select(e=> e);
+		//}
+
+		
+
+		return Ok(await
+			queryResult.Take(query.Size).ToListAsync()
 			);
 	}
 }

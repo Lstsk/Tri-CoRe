@@ -1,4 +1,8 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
+
 namespace TricoApi.Models;
 
 public class Instructor
@@ -7,6 +11,10 @@ public class Instructor
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
     public string? FullName { get { return (FirstName + " " + LastName); } }
-    //public List<int> Ratings { get; set; } = new List<int>();
+    // ratings
+
+    public ICollection<Course> Courses { get; set; } = new List<Course>();
+    [JsonIgnore]
+    public School School { get; set; } = null!;
 }
 

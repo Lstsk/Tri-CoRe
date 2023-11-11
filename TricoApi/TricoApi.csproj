@@ -24,6 +24,7 @@
     <None Remove="Models\" />
     <None Remove="Context\" />
     <None Remove="Data\" />
+    <None Remove="Models\Query\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -31,8 +32,10 @@
     <Folder Include="Models\" />
     <Folder Include="Context\" />
     <Folder Include="Data\" />
+    <Folder Include="Models\Query\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Data\Courses.json" />
+    <Content Remove="Data\AllCourses.json" />
   </ItemGroup>
 </Project>
