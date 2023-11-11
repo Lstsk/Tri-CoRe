@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-export default function Form() {
+export default function CourseAdd() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [selectedYear, setSelectedYear] = useState('Select Year');
 
