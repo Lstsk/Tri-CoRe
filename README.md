@@ -38,15 +38,19 @@ The current Tri-Co course registration system is fraught with challenges, includ
 ## Pages Demonstration
 The Tri-CoRe platform features several key pages:
 - **Homepage**: The main landing page.
+  
 ![HomePage-ezgif com-video-to-gif-converter](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/fb2936e5-6b53-4beb-87ae-6bd193ed853e)
   
 - **Course Page**: Where users can browse the course catalog and ratings.
+  
 ![Course_Page_Demo](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/915844e7-a037-42b5-8d50-87bb541ca561)
 
 - **Research Page**: Dedicated to research opportunities.
+  
 ![image](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/32975a98-9970-4646-8032-767adcd4a413)
 
 - **API Demonstration**: Dedicated to research opportunities.
+  
 ![youtube-video-gif](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/28005d84-4f73-4ef9-902e-affeafe6d43f)
 
 
