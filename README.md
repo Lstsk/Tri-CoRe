@@ -11,10 +11,11 @@
 2. [Problems](#problems)
 3. [Solutions](#solutions)
 5. [Pages Demonstration](#Pages-Demonstration)
-6. [Coding and Challenges](#coding-and-challenges)
-7. [Future Projects](#future-projects)
-8. [Team](#team)
-9. [Acknowledgements](#acknowledgements)
+6. [Try it out](#Try-it-out)
+7. [Coding and Challenges](#coding-and-challenges)
+8. [Future Projects](#future-projects)
+9. [Team](#team)
+10. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 Tri-CoRe is a unified application system designed to streamline course and research application processes across the Tri-Co Consortium. It aims to simplify the registration system by providing a comprehensive course catalog, course ratings, and a hub for posting and applying to research opportunities.
@@ -51,6 +52,20 @@ The Tri-CoRe platform features several key pages:
 - **API Demonstration**: Dedicated to research opportunities.
   
 ![API_Demonstration](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/f595d57a-d287-4adc-842a-44f44c84ab89)
+
+## Try it out
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ## Coding and Challenges
 ### Technologies Used
