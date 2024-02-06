@@ -10,8 +10,7 @@
 1. [Introduction](#introduction)
 2. [Problems](#problems)
 3. [Solutions](#solutions)
-4. [Elevator Pitch](#elevator-pitch)
-5. [Homepage](#homepage)
+5. [Pages Demonstration](#Pages-Demonstration)
 6. [Coding and Challenges](#coding-and-challenges)
 7. [Future Projects](#future-projects)
 8. [Team](#team)
@@ -51,8 +50,7 @@ The Tri-CoRe platform features several key pages:
 
 - **API Demonstration**: Dedicated to research opportunities.
   
-![youtube-video-gif](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/28005d84-4f73-4ef9-902e-affeafe6d43f)
-
+![API_Demonstration](https://github.com/Lstsk/TriCo-Hackathon/assets/72486278/f595d57a-d287-4adc-842a-44f44c84ab89)
 
 ## Coding and Challenges
 ### Technologies Used
@@ -72,7 +70,6 @@ The Tri-CoRe platform features several key pages:
 ## Future Projects
 - **Course Scheduler**: A tool to organize and schedule Tri-Co courses.
 - **Research Opportunities**: Encouraging professors to post research openings on Tri-CoRe.
-- **Club Inc. Australia - Sydney**: A project with a placeholder description aimed at expanding Tri-CoRe's functionalities.
 
 ## Team
 - Jaehoon Son: "The soon to get diabetes"
